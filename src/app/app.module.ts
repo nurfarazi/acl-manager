@@ -6,7 +6,11 @@ import { AppComponent } from './app.component';
 import { PermissionsComponent } from './permissions/permissions.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
+import {
+  MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule,
+  MatCardModule,
+  MatCheckboxModule
+} from '@angular/material';
 import { DepartmentComponent } from './department/department.component';
 
 @NgModule({
@@ -25,7 +29,8 @@ import { DepartmentComponent } from './department/department.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
